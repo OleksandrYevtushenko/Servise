@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Home\\Desktop\\Servise\\Servise\\Servise.csproj": {}
+    "D:\\Servise.ProjectStudents\\Servise\\Servise.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Home\\Desktop\\Servise\\Servise\\Servise.csproj": {
+    "D:\\Servise.ProjectStudents\\Servise\\Servise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Home\\Desktop\\Servise\\Servise\\Servise.csproj",
+        "projectUniqueName": "D:\\Servise.ProjectStudents\\Servise\\Servise.csproj",
         "projectName": "Servise",
-        "projectPath": "C:\\Users\\Home\\Desktop\\Servise\\Servise\\Servise.csproj",
+        "projectPath": "D:\\Servise.ProjectStudents\\Servise\\Servise.csproj",
         "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Home\\Desktop\\Servise\\Servise\\obj\\",
+        "outputPath": "D:\\Servise.ProjectStudents\\Servise\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",

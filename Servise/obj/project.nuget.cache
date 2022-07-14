@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fZxUCqWVQN3FhWGPSsX0rjoBESFRDaV4Qe/nGTqvfeckwGixQDo0sLYRCynH4JnSBYBzGOezUuIkWE5U8nkOXg==",
+  "dgSpecHash": "RwKTTG0FqOmkr+rtncIWHnhY1EN8M7Cejb7LtlMjFPIEAksjkpV1+oGXNN9IY8HxhVylUlpipPm69VEeCG+3nQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Home\\Desktop\\Servise\\Servise\\Servise.csproj",
+  "projectFilePath": "D:\\Servise.ProjectStudents\\Servise\\Servise.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Home\\.nuget\\packages\\google.protobuf\\3.18.0\\google.protobuf.3.18.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\grpc.aspnetcore\\2.40.0\\grpc.aspnetcore.2.40.0.nupkg.sha512",

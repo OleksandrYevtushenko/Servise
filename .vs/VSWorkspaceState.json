@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Servise",
+    "\\Servise\\Migrations"
   ],
-  "SelectedNode": "\\StudentsServise.sln",
   "PreviewInSolutionExplorer": false
 }

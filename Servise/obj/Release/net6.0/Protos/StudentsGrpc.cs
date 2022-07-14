@@ -8,9 +8,6 @@
 using grpc = global::Grpc.Core;
 
 namespace StudentService {
-  /// <summary>
-  /// The student service definition.
-  /// </summary>
   public static partial class RemoteStudent
   {
     static readonly string __ServiceName = "student.RemoteStudent";
@@ -49,9 +46,9 @@ namespace StudentService {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::StudentService.StudentLookupModel> __Marshaller_student_StudentLookupModel = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::StudentService.StudentLookupModel.Parser));
+    static readonly grpc::Marshaller<global::StudentService.StudentDataModel> __Marshaller_student_StudentDataModel = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::StudentService.StudentDataModel.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::StudentService.StudentModel> __Marshaller_student_StudentModel = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::StudentService.StudentModel.Parser));
+    static readonly grpc::Marshaller<global::StudentService.StudentFindModel> __Marshaller_student_StudentFindModel = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::StudentService.StudentFindModel.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::StudentService.Reply> __Marshaller_student_Reply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::StudentService.Reply.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -60,35 +57,35 @@ namespace StudentService {
     static readonly grpc::Marshaller<global::StudentService.StudentList> __Marshaller_student_StudentList = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::StudentService.StudentList.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::StudentService.StudentLookupModel, global::StudentService.StudentModel> __Method_GetStudentInfo = new grpc::Method<global::StudentService.StudentLookupModel, global::StudentService.StudentModel>(
+    static readonly grpc::Method<global::StudentService.StudentDataModel, global::StudentService.StudentFindModel> __Method_GetStudentInfo = new grpc::Method<global::StudentService.StudentDataModel, global::StudentService.StudentFindModel>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetStudentInfo",
-        __Marshaller_student_StudentLookupModel,
-        __Marshaller_student_StudentModel);
+        __Marshaller_student_StudentDataModel,
+        __Marshaller_student_StudentFindModel);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::StudentService.StudentModel, global::StudentService.Reply> __Method_InsertStudent = new grpc::Method<global::StudentService.StudentModel, global::StudentService.Reply>(
+    static readonly grpc::Method<global::StudentService.StudentFindModel, global::StudentService.Reply> __Method_InsertStudent = new grpc::Method<global::StudentService.StudentFindModel, global::StudentService.Reply>(
         grpc::MethodType.Unary,
         __ServiceName,
         "InsertStudent",
-        __Marshaller_student_StudentModel,
+        __Marshaller_student_StudentFindModel,
         __Marshaller_student_Reply);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::StudentService.StudentModel, global::StudentService.Reply> __Method_UpdateStudent = new grpc::Method<global::StudentService.StudentModel, global::StudentService.Reply>(
+    static readonly grpc::Method<global::StudentService.StudentFindModel, global::StudentService.Reply> __Method_UpdateStudent = new grpc::Method<global::StudentService.StudentFindModel, global::StudentService.Reply>(
         grpc::MethodType.Unary,
         __ServiceName,
         "UpdateStudent",
-        __Marshaller_student_StudentModel,
+        __Marshaller_student_StudentFindModel,
         __Marshaller_student_Reply);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::StudentService.StudentLookupModel, global::StudentService.Reply> __Method_DeleteStudent = new grpc::Method<global::StudentService.StudentLookupModel, global::StudentService.Reply>(
+    static readonly grpc::Method<global::StudentService.StudentDataModel, global::StudentService.Reply> __Method_DeleteStudent = new grpc::Method<global::StudentService.StudentDataModel, global::StudentService.Reply>(
         grpc::MethodType.Unary,
         __ServiceName,
         "DeleteStudent",
-        __Marshaller_student_StudentLookupModel,
+        __Marshaller_student_StudentDataModel,
         __Marshaller_student_Reply);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -110,25 +107,25 @@ namespace StudentService {
     public abstract partial class RemoteStudentBase
     {
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::StudentService.StudentModel> GetStudentInfo(global::StudentService.StudentLookupModel request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::StudentService.StudentFindModel> GetStudentInfo(global::StudentService.StudentDataModel request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::StudentService.Reply> InsertStudent(global::StudentService.StudentModel request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::StudentService.Reply> InsertStudent(global::StudentService.StudentFindModel request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::StudentService.Reply> UpdateStudent(global::StudentService.StudentModel request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::StudentService.Reply> UpdateStudent(global::StudentService.StudentFindModel request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::StudentService.Reply> DeleteStudent(global::StudentService.StudentLookupModel request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::StudentService.Reply> DeleteStudent(global::StudentService.StudentDataModel request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -161,10 +158,10 @@ namespace StudentService {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, RemoteStudentBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_GetStudentInfo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::StudentService.StudentLookupModel, global::StudentService.StudentModel>(serviceImpl.GetStudentInfo));
-      serviceBinder.AddMethod(__Method_InsertStudent, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::StudentService.StudentModel, global::StudentService.Reply>(serviceImpl.InsertStudent));
-      serviceBinder.AddMethod(__Method_UpdateStudent, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::StudentService.StudentModel, global::StudentService.Reply>(serviceImpl.UpdateStudent));
-      serviceBinder.AddMethod(__Method_DeleteStudent, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::StudentService.StudentLookupModel, global::StudentService.Reply>(serviceImpl.DeleteStudent));
+      serviceBinder.AddMethod(__Method_GetStudentInfo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::StudentService.StudentDataModel, global::StudentService.StudentFindModel>(serviceImpl.GetStudentInfo));
+      serviceBinder.AddMethod(__Method_InsertStudent, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::StudentService.StudentFindModel, global::StudentService.Reply>(serviceImpl.InsertStudent));
+      serviceBinder.AddMethod(__Method_UpdateStudent, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::StudentService.StudentFindModel, global::StudentService.Reply>(serviceImpl.UpdateStudent));
+      serviceBinder.AddMethod(__Method_DeleteStudent, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::StudentService.StudentDataModel, global::StudentService.Reply>(serviceImpl.DeleteStudent));
       serviceBinder.AddMethod(__Method_RetrieveAllStudents, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::StudentService.Empty, global::StudentService.StudentList>(serviceImpl.RetrieveAllStudents));
     }
 

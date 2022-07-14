@@ -24,28 +24,28 @@ namespace StudentService {
     static StudentsReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChVQcm90b3Mvc3R1ZGVudHMucHJvdG8SB3N0dWRlbnQiBwoFRW1wdHkiMwoL",
-            "U3R1ZGVudExpc3QSJAoFaXRlbXMYASADKAsyFS5zdHVkZW50LlN0dWRlbnRN",
-            "b2RlbCIlCgVSZXBseRIOCgZyZXN1bHQYASABKAkSDAoEaXNPaxgCIAEoCCIn",
-            "ChJTdHVkZW50TG9va3VwTW9kZWwSEQoJc3R1ZGVudElkGAEgASgFIlUKDFN0",
-            "dWRlbnRNb2RlbBIRCglzdHVkZW50SWQYASABKAUSEQoJZmlyc3ROYW1lGAIg",
-            "ASgJEhAKCGxhc3ROYW1lGAMgASgJEg0KBUVtYWlsGAQgASgJMsACCg1SZW1v",
-            "dGVTdHVkZW50EkQKDkdldFN0dWRlbnRJbmZvEhsuc3R1ZGVudC5TdHVkZW50",
-            "TG9va3VwTW9kZWwaFS5zdHVkZW50LlN0dWRlbnRNb2RlbBI2Cg1JbnNlcnRT",
-            "dHVkZW50EhUuc3R1ZGVudC5TdHVkZW50TW9kZWwaDi5zdHVkZW50LlJlcGx5",
-            "EjYKDVVwZGF0ZVN0dWRlbnQSFS5zdHVkZW50LlN0dWRlbnRNb2RlbBoOLnN0",
-            "dWRlbnQuUmVwbHkSPAoNRGVsZXRlU3R1ZGVudBIbLnN0dWRlbnQuU3R1ZGVu",
-            "dExvb2t1cE1vZGVsGg4uc3R1ZGVudC5SZXBseRI7ChNSZXRyaWV2ZUFsbFN0",
-            "dWRlbnRzEg4uc3R1ZGVudC5FbXB0eRoULnN0dWRlbnQuU3R1ZGVudExpc3RC",
-            "EaoCDlN0dWRlbnRTZXJ2aWNlYgZwcm90bzM="));
+            "ChVQcm90b3Mvc3R1ZGVudHMucHJvdG8SB3N0dWRlbnQiBwoFRW1wdHkiNwoL",
+            "U3R1ZGVudExpc3QSKAoFaXRlbXMYASADKAsyGS5zdHVkZW50LlN0dWRlbnRG",
+            "aW5kTW9kZWwiJQoFUmVwbHkSDgoGcmVzdWx0GAEgASgJEgwKBGlzT2sYAiAB",
+            "KAgiJQoQU3R1ZGVudERhdGFNb2RlbBIRCglzdHVkZW50SWQYASABKAUiWQoQ",
+            "U3R1ZGVudEZpbmRNb2RlbBIRCglzdHVkZW50SWQYASABKAUSEQoJZmlyc3RO",
+            "YW1lGAIgASgJEhAKCGxhc3ROYW1lGAMgASgJEg0KBUVtYWlsGAQgASgJMsgC",
+            "Cg1SZW1vdGVTdHVkZW50EkYKDkdldFN0dWRlbnRJbmZvEhkuc3R1ZGVudC5T",
+            "dHVkZW50RGF0YU1vZGVsGhkuc3R1ZGVudC5TdHVkZW50RmluZE1vZGVsEjoK",
+            "DUluc2VydFN0dWRlbnQSGS5zdHVkZW50LlN0dWRlbnRGaW5kTW9kZWwaDi5z",
+            "dHVkZW50LlJlcGx5EjoKDVVwZGF0ZVN0dWRlbnQSGS5zdHVkZW50LlN0dWRl",
+            "bnRGaW5kTW9kZWwaDi5zdHVkZW50LlJlcGx5EjoKDURlbGV0ZVN0dWRlbnQS",
+            "GS5zdHVkZW50LlN0dWRlbnREYXRhTW9kZWwaDi5zdHVkZW50LlJlcGx5EjsK",
+            "E1JldHJpZXZlQWxsU3R1ZGVudHMSDi5zdHVkZW50LkVtcHR5GhQuc3R1ZGVu",
+            "dC5TdHVkZW50TGlzdEIRqgIOU3R1ZGVudFNlcnZpY2ViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::StudentService.Empty), global::StudentService.Empty.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::StudentService.StudentList), global::StudentService.StudentList.Parser, new[]{ "Items" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::StudentService.Reply), global::StudentService.Reply.Parser, new[]{ "Result", "IsOk" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::StudentService.StudentLookupModel), global::StudentService.StudentLookupModel.Parser, new[]{ "StudentId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::StudentService.StudentModel), global::StudentService.StudentModel.Parser, new[]{ "StudentId", "FirstName", "LastName", "Email" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::StudentService.StudentDataModel), global::StudentService.StudentDataModel.Parser, new[]{ "StudentId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::StudentService.StudentFindModel), global::StudentService.StudentFindModel.Parser, new[]{ "StudentId", "FirstName", "LastName", "Email" }, null, null, null, null)
           }));
     }
     #endregion
@@ -228,11 +228,11 @@ namespace StudentService {
 
     /// <summary>Field number for the "items" field.</summary>
     public const int ItemsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::StudentService.StudentModel> _repeated_items_codec
-        = pb::FieldCodec.ForMessage(10, global::StudentService.StudentModel.Parser);
-    private readonly pbc::RepeatedField<global::StudentService.StudentModel> items_ = new pbc::RepeatedField<global::StudentService.StudentModel>();
+    private static readonly pb::FieldCodec<global::StudentService.StudentFindModel> _repeated_items_codec
+        = pb::FieldCodec.ForMessage(10, global::StudentService.StudentFindModel.Parser);
+    private readonly pbc::RepeatedField<global::StudentService.StudentFindModel> items_ = new pbc::RepeatedField<global::StudentService.StudentFindModel>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::StudentService.StudentModel> Items {
+    public pbc::RepeatedField<global::StudentService.StudentFindModel> Items {
       get { return items_; }
     }
 
@@ -557,18 +557,15 @@ namespace StudentService {
 
   }
 
-  /// <summary>
-  /// The request message 
-  /// </summary>
-  public sealed partial class StudentLookupModel : pb::IMessage<StudentLookupModel>
+  public sealed partial class StudentDataModel : pb::IMessage<StudentDataModel>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<StudentLookupModel> _parser = new pb::MessageParser<StudentLookupModel>(() => new StudentLookupModel());
+    private static readonly pb::MessageParser<StudentDataModel> _parser = new pb::MessageParser<StudentDataModel>(() => new StudentDataModel());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<StudentLookupModel> Parser { get { return _parser; } }
+    public static pb::MessageParser<StudentDataModel> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -581,21 +578,21 @@ namespace StudentService {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public StudentLookupModel() {
+    public StudentDataModel() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public StudentLookupModel(StudentLookupModel other) : this() {
+    public StudentDataModel(StudentDataModel other) : this() {
       studentId_ = other.studentId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public StudentLookupModel Clone() {
-      return new StudentLookupModel(this);
+    public StudentDataModel Clone() {
+      return new StudentDataModel(this);
     }
 
     /// <summary>Field number for the "studentId" field.</summary>
@@ -611,11 +608,11 @@ namespace StudentService {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as StudentLookupModel);
+      return Equals(other as StudentDataModel);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(StudentLookupModel other) {
+    public bool Equals(StudentDataModel other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -682,7 +679,7 @@ namespace StudentService {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(StudentLookupModel other) {
+    public void MergeFrom(StudentDataModel other) {
       if (other == null) {
         return;
       }
@@ -732,18 +729,15 @@ namespace StudentService {
 
   }
 
-  /// <summary>
-  /// The response message 
-  /// </summary>
-  public sealed partial class StudentModel : pb::IMessage<StudentModel>
+  public sealed partial class StudentFindModel : pb::IMessage<StudentFindModel>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<StudentModel> _parser = new pb::MessageParser<StudentModel>(() => new StudentModel());
+    private static readonly pb::MessageParser<StudentFindModel> _parser = new pb::MessageParser<StudentFindModel>(() => new StudentFindModel());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<StudentModel> Parser { get { return _parser; } }
+    public static pb::MessageParser<StudentFindModel> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -756,14 +750,14 @@ namespace StudentService {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public StudentModel() {
+    public StudentFindModel() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public StudentModel(StudentModel other) : this() {
+    public StudentFindModel(StudentFindModel other) : this() {
       studentId_ = other.studentId_;
       firstName_ = other.firstName_;
       lastName_ = other.lastName_;
@@ -772,8 +766,8 @@ namespace StudentService {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public StudentModel Clone() {
-      return new StudentModel(this);
+    public StudentFindModel Clone() {
+      return new StudentFindModel(this);
     }
 
     /// <summary>Field number for the "studentId" field.</summary>
@@ -822,11 +816,11 @@ namespace StudentService {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as StudentModel);
+      return Equals(other as StudentFindModel);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(StudentModel other) {
+    public bool Equals(StudentFindModel other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -932,7 +926,7 @@ namespace StudentService {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(StudentModel other) {
+    public void MergeFrom(StudentFindModel other) {
       if (other == null) {
         return;
       }
